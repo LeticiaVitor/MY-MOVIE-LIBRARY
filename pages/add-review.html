@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Movie Library - Add New Review</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="../index.html" class="logo-link">
+                <div>
+                    <img src="../assets/images/mlib-icon.svg" alt="MLib Logo Icon" height="32">
+                    <span>MLib</span>
+                </div>
+            </a>
+
+            <nav>
+                <button class="add-button" aria-label="Add new movie review">+</button>
+            </nav>
+        </header>
+
+        <main>
+
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 MLib &ndash; My Movie Library</p>
+        </footer>
+    </body>
+
+    <div class="form-row">
+    <div class="form-group">
+        <label for="rating-select">Stars</label>
+        <select id="rating-select">
+            <option value="">Choose a rating</option>
+            <option value="1">★☆☆☆☆ - 1 Star</option>
+            <option value="2">★★☆☆☆ - 2 Stars</option>
+            <option value="3">★★★☆☆ - 3 Stars</option>
+            <option value="4">★★★★☆ - 4 Stars</option>
+            <option value="5">★★★★★ - 5 Stars</option>
+        </select>
+    </div>
+</div>
+
+<div class="form-row">
+    <!--  ...  -->
+
+    <div class="form-group">
+        <label for="watched-date">Watched Date</label>
+        <input type="date" id="watched-date">
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="review-text">My Review</label>
+    <textarea id="review-text" rows="5" placeholder="Write your thoughts here..."></textarea>
+</div>
+
+<button type="submit" class="submit-button">Add</button>
+
+</html>
